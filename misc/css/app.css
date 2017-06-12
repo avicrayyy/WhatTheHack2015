@@ -1,0 +1,114 @@
+/* unvisited link */
+a:link {
+    color: #333;
+}
+
+/* visited link */
+a:visited {
+    color: #333;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333;
+}
+
+/* selected link */
+a:active {
+    color: #333;
+}
+
+body {
+	font-family: "Roboto";
+}
+core-item::shadow #ink {
+	color: #54abb6;
+}
+[main] {
+	background-color: #ffffff;
+}
+[drawer] {
+	background-color: #f0f0f0;
+	padding: 0px;
+}
+core-drawer-panel:not([narrow]) #navicon {
+	display: none;
+}
+.user_icon {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 80px;
+	border: solid 2px #aaa;
+	border-radius: 120px;
+}
+.profile_icon {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 240px;
+	height: 240px;
+	border: solid 2px #aaa;
+	border-radius: 200px;
+}
+.user_name {
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #0a0a0a;
+	font-size: 1.2em;
+}
+core-toolbar {
+	background-color: #0D4B83;
+}
+core-item[active] {
+	background-color: #ffffff;
+}
+
+.card {
+	background: url('../img/card-bg.jpg'); 
+	background-size: 100% 100%;
+	width: 336px;
+	height: 280px; 
+	background-color: #aeaeae;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border: solid 2px #ccc;
+}
+.card-caption {
+	margin: 0px;
+	position: relative;
+	top: 64%;
+	right: 0px;
+	height: 28%;
+	background-color: rgba(30, 30, 30, 0.6);
+	overflow: hidden;
+	padding: 10px;
+	color: #fefefe;
+}
+.interact {
+	margin-top: 6px;
+}
+.content {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.prof {
+	margin: 0px ;
+	border-bottom: solid 3px #eee;
+	background: url('../img/17.jpg');
+	background-size: 100% 100%;
+}
+.logo {
+	width: 60%;
+	height: 60%;
+}
+.footloose {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	color: #ccc;
+	background-color: #f5f5f5;
+	text-align: center;
+}
